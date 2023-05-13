@@ -1,0 +1,74 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+o o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Jacking in...
+; Starting Jack-in Terminal: lein update-in :dependencies conj '[nrepl,"0.9.0"]' -- update-in :plugins conj '[cider/cider-nrepl,"0.28.5"]' -- update-in '[:repl-options,:nrepl-middleware]' conj '["cider.nrepl/cider-middleware"]' -- repl :headless
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉codewars-kata.core꞉>  ; Use `alt+enter` to evaluate
+; Jack-in done.
+clj꞉codewars-kata.core꞉> 
+#'codewars-kata.bouncing-balls/can-see?
+clj꞉codewars-kata.bouncing-balls꞉> 
+; Syntax error compiling at (src/codewars_kata/bouncing_balls.clj:40:9).
+; Unable to resolve symbol: can-see? in this context
+clj꞉codewars-kata.bouncing-balls꞉> 
+#'codewars-kata.consecutive-strings/can-see?
+clj꞉codewars-kata.consecutive-strings꞉> 
+#'codewars-kata.bouncing-balls/bounced
+clj꞉codewars-kata.bouncing-balls꞉> 
+#'codewars-kata.bouncing-balls/bouncing-balls
+clj꞉codewars-kata.bouncing-balls꞉> 
+#'codewars-kata.bouncing-balls/count-bounced
+clj꞉codewars-kata.bouncing-balls꞉> (count-bounced 3 0.66 1.5
+                                                  )
+                                                  
+; Execution error (ClassCastException) at codewars-kata.bouncing-balls/count-bounced (form-init11542846868135618341.clj:39).
+; class java.lang.Double cannot be cast to class clojure.lang.IFn (java.lang.Double is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉codewars-kata.bouncing-balls꞉> 
+#'codewars-kata.bouncing-balls/count-bounced
+clj꞉codewars-kata.bouncing-balls꞉> 
+; Execution error (ClassCastException) at codewars-kata.bouncing-balls/count-bounced (form-init11542846868135618341.clj:39).
+; class java.lang.Double cannot be cast to class clojure.lang.IFn (java.lang.Double is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉codewars-kata.bouncing-balls꞉> 
+#'codewars-kata.bouncing-balls/count-bounced
+clj꞉codewars-kata.bouncing-balls꞉> 
+; Execution error (ClassCastException) at codewars-kata.bouncing-balls/count-bounced (form-init11542846868135618341.clj:39).
+; class java.lang.Double cannot be cast to class clojure.lang.IFn (java.lang.Double is in module java.base of loader 'bootstrap'; clojure.lang.IFn is in unnamed module of loader 'app')
+clj꞉codewars-kata.bouncing-balls꞉> 
+#'codewars-kata.bouncing-balls/count-bounced
+clj꞉codewars-kata.bouncing-balls꞉> 
+1.98
+nil
+clj꞉codewars-kata.bouncing-balls꞉> 
+#'codewars-kata.bouncing-balls/count-bounced
+clj꞉codewars-kata.bouncing-balls꞉> 
+1.98
+; Execution error (ClassCastException) at codewars-kata.bouncing-balls/count-bounced (form-init11542846868135618341.clj:44).
+; class java.lang.Double cannot be cast to class clojure.lang.IAtom (java.lang.Double is in module java.base of loader 'bootstrap'; clojure.lang.IAtom is in unnamed module of loader 'app')
+clj꞉codewars-kata.bouncing-balls꞉> 
+#'codewars-kata.bouncing-balls/count-bounced
+clj꞉codewars-kata.bouncing-balls꞉> 
+(count-bounced 3 0.66 1.5
+                                                  )
+1.98
+nil
+clj꞉codewars-kata.bouncing-balls꞉> 
+#'codewars-kata.bouncing-balls/count-bounced
+clj꞉codewars-kata.bouncing-balls꞉> 
+(count-bounced 3 0.66 1.5
+                                                  )
+1.98
+test
+nil
+clj꞉codewars-kata.bouncing-balls꞉> 
